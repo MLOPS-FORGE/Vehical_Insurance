@@ -1,3 +1,5 @@
+# this file stores all the metadata. 
+
 [project]
 name = "src"
 version = "0.0.1"
