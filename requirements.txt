@@ -18,3 +18,5 @@ python-multipart
 uvicorn
 jinja2
 imblearn
+-e . #this code helps in installing our local packages in our environment eg. how fastapi package gets installed after doing pip install requirements.txt just like that writing this code installs local packages in our environment.
+#this code looks for setup.py file.
