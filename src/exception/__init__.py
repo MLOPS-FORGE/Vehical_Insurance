@@ -52,6 +52,6 @@ class MyException(Exception):
         return self.error_message
     
 
-    #__init__ and __str__ are the dunder methods. 
+    #__init__ and __str__ are the dunder(double underscored) methods. 
     # __init__ - constructor
     # __str__ - string representation
