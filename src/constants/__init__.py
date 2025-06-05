@@ -73,3 +73,11 @@ MODEL_PUSHER_S3_KEY = "model-registry"
 
 APP_HOST = "0.0.0.0"
 APP_PORT = 5000
+
+
+
+# why over here all the code is written in direct __init__.py file directly because
+# it Stores variables directly	Small, flat, and meant for direct import
+# there is no major logic behind but see the folder like configuration - nothing is written in __init__.py file because
+# because each file/module inside the package has its own responsibility.You're organizing logic into separate files for modularity.
+# It keeps your __init__.py free from side effects or heavy imports.
