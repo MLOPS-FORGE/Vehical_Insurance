@@ -1,5 +1,6 @@
 # The @dataclass decorator in Python (from the dataclasses module) automatically adds special 
 # methods to your class — like __init__(), __repr__(), __eq__(), and more — based on the class attributes you define.
+# artifacts tells us what are the outputs we are going to get. 
 
 
 from dataclasses import dataclass
