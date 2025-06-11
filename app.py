@@ -22,6 +22,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 # Set up Jinja2 template engine for rendering HTML templates
 templates = Jinja2Templates(directory='templates')
 
+#cors means anybody should access the url from any domain or browser
 # Allow all origins for Cross-Origin Resource Sharing (CORS)
 origins = ["*"]
 
