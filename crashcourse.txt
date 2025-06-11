@@ -60,6 +60,8 @@ Simplified: `async` (short for *asynchronous*) allows your code to run tasks wit
 For example, imagine you request some data from a user form on a website. While waiting for the data to be sent back, instead 
 of sitting idle, the app can do other tasks (like handling another user's request) in the meantime.
 
+instead of waiting for my input, the app can meanwhile attend to some other customer. 
+
 Using `async` helps the app handle multiple requests faster and more efficiently, especially for tasks like reading form data, 
 accessing databases, or making network requests. 
 
